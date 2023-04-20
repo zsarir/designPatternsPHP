@@ -1,0 +1,14 @@
+.wrapper{
+    margin : 100px;
+   text-align: center;
+}
+.memento-input{
+    width: auto;
+    align-self: center;
+}
+.results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
