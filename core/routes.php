@@ -1,9 +1,9 @@
 <?php
 // MEMENTO Route
-$routings->get("/memento", "dp/memento/index.view.php");
-$routings->post("/memento/add", "dp/memento/add.php");
-// $routings->post("/memento/edit", "dp/memento/edit.php");
-$routings->get("/memento/edit", "dp/memento/edit.php");
-$routings->get("/memento/undo", "dp/memento/undo.php");
+$routings->get("/memento", "Patterns/Memento/index.view.php");
+$routings->post("/memento/add", "Patterns/Memento/add.php");
+// $routings->post("/Memento/edit", "Patterns/Memento/edit.php");
+$routings->get("/memento/edit", "Patterns/Memento/edit.php");
+$routings->get("/memento/undo", "Patterns/Memento/undo.php");
 
-$routings->get("/", "dp/memento/index.view.php");
+$routings->get("/", "Patterns/Memento/index.view.php");

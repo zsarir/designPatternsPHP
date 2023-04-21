@@ -1,7 +1,7 @@
 <?php require "header.php";
 
-use app\Database;
-use app\App;
+use Mobin\DesignPatterns\App\Database;
+use Mobin\DesignPatterns\App\App;
 ?>
 
 <div class="wrapper">

@@ -1,9 +1,11 @@
 <?php
+
+use Mobin\DesignPatterns\Pattern\Memento\History;
+use Mobin\DesignPatterns\Pattern\Memento\Editor;
+use Mobin\DesignPatterns\App\Router;
+
 session_start();
 
-use memento\pattern\History;
-use memento\pattern\Editor;
-use app\Router;
 
 
 const SITE_URL = 'https://designpatterns';
@@ -18,19 +20,9 @@ if (isset($_SERVER['REQUEST_URI'])) {
 
 require  '../core/functions.php';
 
-
-spl_autoload_register(function ($class) {
-    $class = str_replace('\\', DIRECTORY_SEPARATOR, $class);
-
-    require base_path("{$class}.php");
-});
-
-
-
 require base_path('bootstrap.php');
 
-require base_path('dp/memento/pattern/History.php');
-require base_path('dp/memento/pattern/Editor.php');
+
 // Memento Objects
 if (!isset($_SESSION['editor']) || !isset($_SESSION['history'])) {
     $editor = new Editor;

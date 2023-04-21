@@ -1,0 +1,17 @@
+{
+    "name": "mobinzarekar/php-design-patterns",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Mobin",
+            "email": "z.sarir@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mobin\\DesignPatterns\\App\\": "App",
+            "Mobin\\DesignPatterns\\Patterns\\": "Patterns"
+        }
+    },
+    "require": {}
+}

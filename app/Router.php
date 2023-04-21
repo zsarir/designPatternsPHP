@@ -1,8 +1,10 @@
 <?php
 
-namespace app;
+namespace Mobin\DesignPatterns\App;
 
-use app\middleware\Middleware;
+use Mobin\DesignPatterns\App\Middleware\Middleware;
+
+
 
 class Router
 {

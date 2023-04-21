@@ -1,8 +1,9 @@
 <?php
 
-namespace app;
+namespace Mobin\DesignPatterns\App;
 
 use Exception;
+
 
 class Container
 {

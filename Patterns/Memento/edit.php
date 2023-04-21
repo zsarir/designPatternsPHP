@@ -1,9 +1,9 @@
 <?php
 
-use app\Database;
-use app\App;
+use Mobin\DesignPatterns\App\Database;
+use Mobin\DesignPatterns\App\App;
 
-require base_path("dp/memento/pattern/Editorstate.php");
+
 
 $db = App::resolve(Database::class);
 

@@ -1,12 +1,11 @@
 <?php
 
-use memento\pattern\Editorstate;
-use app\Router;
-use app\Database;
-use app\App;
+use Mobin\DesignPatterns\App\Database;
+use Mobin\DesignPatterns\App\App;
 
 
-require base_path("dp/memento/pattern/Editorstate.php");
+
+
 
 if ($_POST['content'] === "") {
     header("Location: /memento");

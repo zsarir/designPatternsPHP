@@ -1,8 +1,9 @@
 <?php
 
-namespace app\middleware;
+namespace Mobin\DesignPatterns\App\Middleware;
 
-use app\Login;
+use Mobin\DesignPatterns\App\Login;
+
 
 class User
 {

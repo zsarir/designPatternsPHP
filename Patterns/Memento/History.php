@@ -1,6 +1,6 @@
 <?php
 
-namespace memento\pattern;
+namespace Mobin\DesignPatterns\Pattern\Memento;
 
 class History
 {

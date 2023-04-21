@@ -1,6 +1,7 @@
 <?php
 
-namespace app;
+namespace Mobin\DesignPatterns\App;
+
 
 class App
 {

@@ -1,8 +1,7 @@
 <?php
 
-namespace memento\pattern;
+namespace Mobin\DesignPatterns\Pattern\Memento;
 
-use memento\pattern\Editorstate;
 
 class Editor
 {

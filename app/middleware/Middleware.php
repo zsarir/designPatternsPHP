@@ -1,9 +1,8 @@
 <?php
 
-namespace app\middleware;
 
-use app\middleware\User;
-use app\middleware\Guest;
+
+namespace Mobin\DesignPatterns\App\Middleware;
 
 class Middleware
 {
