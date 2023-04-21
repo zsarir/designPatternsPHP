@@ -5,7 +5,6 @@ use Mobin\DesignPatterns\App\App;
 
 
 
-require base_path("dp/memento/pattern/Editorstate.php");
 // Set memento
 $history = unserialize($_SESSION['history']);
 $list = $history->pop()->getList();

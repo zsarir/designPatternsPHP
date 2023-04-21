@@ -1,8 +1,10 @@
 <?php
 
-use Mobin\DesignPatterns\Pattern\Memento\History;
-use Mobin\DesignPatterns\Pattern\Memento\Editor;
+use Mobin\DesignPatterns\Patterns\Memento\History;
+use Mobin\DesignPatterns\Patterns\Memento\Editor;
 use Mobin\DesignPatterns\App\Router;
+
+require_once '../vendor/autoload.php';
 
 session_start();
 

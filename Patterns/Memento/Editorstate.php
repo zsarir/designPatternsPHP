@@ -1,6 +1,6 @@
 <?php
 
-namespace Mobin\DesignPatterns\Pattern\Memento;
+namespace Mobin\DesignPatterns\Patterns\Memento;
 
 class Editorstate
 {
